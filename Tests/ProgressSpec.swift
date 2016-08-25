@@ -270,7 +270,7 @@ class ProgressSpec: ResourceSpecBase
                 -> [Double]
                 {
                 var progressReports: [Double] = []
-
+                
                 let expectation = QuickSpec.current().expectationWithDescription("recordProgressUntil")
                 var fulfilled = false
 

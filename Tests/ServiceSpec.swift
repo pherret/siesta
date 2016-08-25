@@ -248,7 +248,7 @@ class ServiceSpec: SiestaSpec
 
             it("applies predicate config only to matching resources")
                 {
-                service().configure(whenURLMatches: { $0.absoluteString.hasSuffix("foo") })
+                service().configure(whenURLMatches: { $0.absoluteString!.hasSuffix("foo") })
                     { $0.config.expirationTime = 17 }
                 expect(resource0().configuration.expirationTime) == 17
                 expect(resource1().configuration.expirationTime) == 30

@@ -1,10 +1,11 @@
 # Optional integrations
 
-github "Alamofire/Alamofire" ~> 3.0
+github "Alamofire/Alamofire" "swift2.3"
 github "ReactiveCocoa/ReactiveCocoa" ~> 4.0
 
 # Testing
 
-github "pcantrell/Quick" "expose-current-spec"                    # fork allows use of XCTestExpectation
-github "Quick/Nimble" "master"
-github "pcantrell/Nocilla" "delayed-response"                     # fork adds delay() / go()
+github "pherret/Quick" "expose-current-spec"    # fork allows use of XCTestExpectation
+github "madhavajay/Nimble" "xcode-8"
+
+github "pcantrell/Nocilla" "delayed-response"   # fork adds delay() / go()
